@@ -67,7 +67,7 @@ test_loader = torch.utils.data.DataLoader(dataset=test_dataset,
                                         batch_size=batch_size,
                                         shuffle=True)
 
-# ＜ -- ネットワーク構築 -- ＞
+# ＜ -- モデル定義 -- ＞
 
 class Net(nn.Module):
     def __init__(self, input_size, hidden1_size, hidden2_size, output_size):
